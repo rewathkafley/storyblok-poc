@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "storyblok-poc"
+    }
+  },
+  "defaultProject": "storyblok-poc",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }

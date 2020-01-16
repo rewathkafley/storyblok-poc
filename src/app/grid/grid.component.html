@@ -1,0 +1,6 @@
+<div class="grid" [appStoryblok]="_editable">
+  <div *ngFor="let blok of columns">
+    <ndc-dynamic [ndcDynamicComponent]="components[blok.component]" [ndcDynamicInputs]="blok">
+    </ndc-dynamic>
+  </div>
+</div>
