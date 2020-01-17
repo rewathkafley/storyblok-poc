@@ -19,9 +19,8 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.storyblokService.getStory('home', {version: 'published'})
+    this.storyblokService.getStory('home', {version: 'draft'})
       .then(data => {
-        debugger;
         this.story = data.story;
       });
   }

@@ -9,6 +9,7 @@ export class FeatureComponent implements OnInit {
   @Input() name: string;
   @Input() _editable: string;
   @Input() thumb: string;
+  @Input() description: string;
 
   constructor() {
   }
